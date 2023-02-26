@@ -14,15 +14,16 @@ import java.util.List;
 @Data
 public class User {
     @Id
-    int userId;
+    String userId;
     String username;
     String phone;
     String password;
+    String profilePic;
     int age;
     String branch;
     String year;
     String bio;
     List<String> interests;
-    List<User> my_likes;
-    List<User> mutual_likes;
+    List<String> my_likes;
+    List<String> mutual_likes;
 }
