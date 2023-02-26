@@ -7,4 +7,5 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.util.Optional;
 
 public interface UserRepository extends MongoRepository<User, String> {
+    void deleteById(String id);
 }

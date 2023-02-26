@@ -18,11 +18,11 @@ public class User {
     String username;
     String phone;
     String password;
-    String profilePic;
     int age;
     String branch;
     String year;
     String bio;
+    List<String> profilePic;
     List<String> interests;
     List<String> my_likes;
     List<String> mutual_likes;
